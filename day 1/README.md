@@ -1,5 +1,7 @@
 # day 1
 
+## [golan 1.13+ && hello-world-gomod](https://golangbot.com/hello-world-gomod/)
+
 ## 💻 install Go on Mac (with homebrew)
 
 ### install Go
