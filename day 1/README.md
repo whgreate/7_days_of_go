@@ -1,6 +1,23 @@
 # day 1
 
-### [golan 1.13+ && hello-world-gomod](https://golangbot.com/hello-world-gomod/)
+### [golang 1.13+ && hello-world-gomod](https://golangbot.com/hello-world-gomod/)
+
+### [semicolon insertion rules](https://go.dev/doc/effective_go#semicolons)
+
+### [arrays-and-slices](https://golangbot.com/arrays-and-slices/)
+append make copy
+```go
+
+func countries() []string {  
+    countries := []string{"USA", "Singapore", "Germany", "India", "Australia"}
+    neededCountries := countries[:len(countries)-2]
+    countriesCpy := make([]string, len(neededCountries))
+    copy(countriesCpy, neededCountries) //copies neededCountries to countriesCpy
+    return countriesCpy
+}
+
+```
+
 
 ## 💻 install Go on Mac (with homebrew)
 
