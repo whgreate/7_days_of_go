@@ -1,10 +1,10 @@
 # day 1
 
-### [golang 1.13+ && hello-world-gomod](https://golangbot.com/hello-world-gomod/)
+### [1 golang 1.13+ && hello-world-gomod](https://golangbot.com/hello-world-gomod/)
 
-### [semicolon insertion rules](https://go.dev/doc/effective_go#semicolons)
+### [2 semicolon insertion rules](https://go.dev/doc/effective_go#semicolons)
 
-### [arrays-and-slices](https://golangbot.com/arrays-and-slices/)
+### [3 arrays-and-slices](https://golangbot.com/arrays-and-slices/)
 append make copy
 ```go
 
@@ -18,6 +18,25 @@ func countries() []string {
 
 ```
 
+### [4 Pointers](https://golangbot.com/pointers/)
+So forget about passing pointers to arrays around and use slices instead :)
+```go
+package main
+
+import (  
+    "fmt"
+)
+
+func modify(sls []int) {  
+    sls[0] = 90
+}
+
+func main() {  
+    a := [3]int{89, 90, 91}
+    modify(a[:])
+    fmt.Println(a)
+}
+```
 
 ## 💻 install Go on Mac (with homebrew)
 
