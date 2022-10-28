@@ -38,6 +38,9 @@ func main() {
 }
 ```
 
+### [structs](https://golangbot.com/structs/)
+chapter ```Exported structs and fields``` is good example.
+
 ## 💻 install Go on Mac (with homebrew)
 
 ### install Go
