@@ -1,3 +1,9 @@
+add to ~/.bash_profile
+```
+export GO111MODULE=on
+export GOPROXY=https://goproxy.cn
+```
+
 ```shell script
 go mod init example.com/hello
 go test
